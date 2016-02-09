@@ -7,13 +7,11 @@ var match = function() {
 		matchz = true;
 		alert("Great Work!")
 	}
-	else {
-		if (userNum > compNum || userNum === "10") {
+	else if (userNum > compNum || userNum === "10") {
 			alert("Lower Fool!");
 		}
-		else {
+	else {
 			alert("Higher Fool!");
-		}
 		}
 	}
 }
